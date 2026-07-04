@@ -9,6 +9,7 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -28,12 +29,12 @@ export default function Navbar() {
 
        <Link href="/" className="flex items-center">
             <Image
-              src="/images/dce-logo.jpg"
+              src="/images/dce-logo.jpeg"
               alt="Diamond Coat Epoxy Solutions Logo"
               width={180}
               height={180}
               priority
-              className="h-14 w-auto"
+              className="h-14 w-auto rounded-lg border! border-white!"
             />
         </Link>
 
