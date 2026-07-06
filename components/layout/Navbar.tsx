@@ -22,7 +22,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-[#E5121D]/95 backdrop-blur">
+    <header className="top-0 z-50 border-b bg-[#E5121D]/95 backdrop-blur">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         
