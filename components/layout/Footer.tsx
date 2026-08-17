@@ -12,7 +12,7 @@ export default function Footer() {
         <div>
 
           <Image
-            src="/images/dce-logo.jpg"
+            src="/images/dce-logo.jpeg"
             alt="Diamond Coat Epoxy Solutions"
             width={180}
             height={60}
