@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Epoxy Flooring Austin TX | Diamond Coat Epoxy Solutions",
   description:
     "Professional epoxy flooring, garage floor coatings, metallic epoxy finishes, and concrete resurfacing in Austin, Texas.",
-};
+  };
 
 export default function RootLayout({
   children,

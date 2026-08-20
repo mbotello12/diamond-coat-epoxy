@@ -4,10 +4,10 @@ export default function ServiceArea() {
     "Round Rock",
     "Pflugerville",
     "Cedar Park",
-    "Georgetown",
-    "Kyle",
-    "Buda",
-    "Leander",
+    // "Georgetown",
+    // "Kyle",
+    // "Buda",
+    // "Leander",
   ];
 
   return (
