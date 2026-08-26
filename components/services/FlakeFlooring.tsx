@@ -7,7 +7,7 @@ export default function FlakeFlooring() {
 
         <div className="relative h-[500px] overflow-hidden rounded-xl">
           <Image
-            src="/images/flake.jpg"
+            src="/images/flake.PNG"
             alt="Epoxy flake garage flooring in Austin Texas"
             fill
             className="object-cover"

@@ -11,7 +11,7 @@ export default function ServicesPreview() {
     {
       title: "Metallic Epoxy Floors",
       desc: "High-end, marble-like finishes that elevate interior residential and commercial spaces.",
-      image: "/images/metallic.png",
+      image: "/images/metallic1.jpeg",
     },
     {
       title: "Custom Epoxy Builds",

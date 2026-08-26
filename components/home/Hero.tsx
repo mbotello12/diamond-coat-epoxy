@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="max-w-2xl text-[#FAFAFA]">
 
           <p className="mb-4 text-m! font-semibold uppercase tracking-[0.3em] text-[#E5121D]">
-            Austin's Trusted Epoxy Flooring Specialists
+            Austin's Trusted Epoxy Coating Specialists
           </p>
 
           <h1 className="text-4xl! font-extrabold! leading-tight! md:text-6xl!">
@@ -35,10 +35,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 text-xl leading-8 text-gray-200">
-            Transform cracked or outdated concrete into beautiful,
-            long-lasting floors. From garage flake systems to
-            metallic epoxy finishes, we deliver durable craftsmanship
-            backed by honest pricing.
+            We transform existing surfaces with high-performance coating systems. From garage flake systems to metallic epoxy finishes, we deliver durable craftsmanship backed by honest pricing.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -62,6 +59,8 @@ export default function Hero() {
           <div className="mt-12 flex flex-wrap gap-8 text-m font-semibold uppercase">
 
             <span>✔ Owner Operated</span>
+
+            <span>✔ Certified in Epoxy Coating Systems</span>
 
             <span>✔ 5 Years Experience</span>
 

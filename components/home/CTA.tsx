@@ -10,7 +10,7 @@ export default function FinalCTA() {
         </p>
 
         <h2 className="mt-4 text-5xl font-bold leading-tight">
-          Transform Your Concrete
+          Transform Your Surface
           <span className="block text-[#E5121D]">
             Into Something Incredible
           </span>

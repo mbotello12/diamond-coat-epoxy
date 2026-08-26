@@ -7,7 +7,8 @@ export default function CustomEpoxy() {
 
         <div className="relative h-[500px] overflow-hidden rounded-xl">
           <Image
-            src="/images/custom-epoxy.jpg"
+            src="/images/custom.PNG
+            "
             alt="Custom epoxy table and specialty epoxy piece"
             fill
             className="object-cover"

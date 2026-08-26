@@ -75,7 +75,21 @@ export default function ContactForm() {
             Fill out the form below and we'll get back to you.
           </p>
 
-          <form className="mt-8 space-y-6">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          className="mt-8 space-y-6"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+
+          <p className="hidden">
+            <label>
+              Don’t fill this out if you’re human:
+              <input name="bot-field" />
+            </label>
+          </p>
 
             <div className="grid gap-6 sm:grid-cols-2">
 

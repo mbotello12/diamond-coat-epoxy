@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Form</title>
+  </head>
+
+  <body>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+
+      <input type="hidden" name="bot-field" />
+
+      <input type="text" name="name" />
+
+      <input type="tel" name="phone" />
+
+      <input type="email" name="email" />
+
+      <select name="service">
+        <option value="flake">Epoxy Flake Flooring</option>
+        <option value="metallic">Metallic Epoxy</option>
+        <option value="custom">Custom Epoxy Build</option>
+        <option value="other">Other / Not Sure</option>
+      </select>
+
+      <textarea name="message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -31,7 +31,7 @@ export default function MetallicEpoxy() {
 
         <div className="relative order-1 h-[500px] overflow-hidden rounded-xl lg:order-2">
           <Image
-            src="/images/metallic.jpg"
+            src="/images/metallic1.jpeg"
             alt="Metallic epoxy flooring in Austin Texas"
             fill
             className="object-cover"
