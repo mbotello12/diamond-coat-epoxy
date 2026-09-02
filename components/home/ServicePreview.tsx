@@ -4,15 +4,16 @@ import Link from "next/link";
 export default function ServicesPreview() {
   const services = [
     {
-      title: "Epoxy Flake Flooring",
-      desc: "Durable, slip-resistant garage floors built for heavy use and easy maintenance.",
-      image: "/images/flake.PNG",
-    },
-    {
       title: "Metallic Epoxy Floors",
       desc: "High-end, marble-like finishes that elevate interior residential and commercial spaces.",
       image: "/images/metallic1.jpeg",
     },
+    {
+      title: "Epoxy Flake Flooring",
+      desc: "Durable, slip-resistant garage floors built for heavy use and easy maintenance.",
+      image: "/images/flake.PNG",
+    },
+    
     {
       title: "Custom Epoxy Builds",
       desc: "Custom epoxy platforms, tables, countertops, and specialty surfaces built for durability and design.",

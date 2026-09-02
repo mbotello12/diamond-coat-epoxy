@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function MetallicEpoxy() {
   return (
-    <section className="bg-red-600 py-24">
+    <section className="py-24">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2 lg:items-center">
 
         <div className="order-2 lg:order-1">
 
-          <p className="font-semibold uppercase tracking-[0.3em] text-[#000000]">
+          <p className="font-semibold uppercase tracking-[0.3em] text-[#E5121D]">
             Premium Finishes
           </p>
 
@@ -15,14 +15,14 @@ export default function MetallicEpoxy() {
             Metallic Epoxy Flooring
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-[#FAFAFA]">
+          <p className="mt-6 text-lg leading-8 text-gray-600">
             Create a floor that's impossible to ignore. Metallic epoxy
             produces a unique, high-end finish with depth, movement, and
             character that can transform residential and commercial
             interiors.
           </p>
 
-          <p className="mt-6 text-[#FAFAFA]">
+          <p className="mt-6 text-black">
             Each installation is customized to create a distinctive
             appearance rather than a one-size-fits-all finish.
           </p>

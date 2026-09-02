@@ -20,9 +20,9 @@ export default function Services() {
   return (
     <main>
         <ServicesHero />
-        <CustomEpoxy />
         <MetallicEpoxy />
         <FlakeFlooring />
+        <CustomEpoxy />
         <Process />
         <CTA />
     </main>

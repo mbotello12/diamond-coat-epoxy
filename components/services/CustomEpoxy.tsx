@@ -5,16 +5,7 @@ export default function CustomEpoxy() {
     <section className="py-24">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2 lg:items-center">
 
-        <div className="relative h-[500px] overflow-hidden rounded-xl">
-          <Image
-            src="/images/custom.PNG
-            "
-            alt="Custom epoxy table and specialty epoxy piece"
-            fill
-            className="object-cover"
-          />
-        </div>
-
+    
         <div>
 
           <p className="font-semibold uppercase tracking-[0.3em] text-[#E5121D]">
@@ -40,6 +31,16 @@ export default function CustomEpoxy() {
             If you can imagine it, let's talk about how we can build it.
           </p>
 
+        </div>
+
+        <div className="relative h-[500px] overflow-hidden rounded-xl">
+          <Image
+            src="/images/custom.PNG
+            "
+            alt="Custom epoxy table and specialty epoxy piece"
+            fill
+            className="object-cover"
+          />
         </div>
 
       </div>

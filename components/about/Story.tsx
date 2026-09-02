@@ -7,7 +7,7 @@ export default function Story() {
 
         <div className="relative h-[500px] overflow-hidden rounded-xl">
           <Image
-            src="/images/derek.jpg"
+            src="/images/derek.png"
             alt="Owner Derek Contreras"
             fill
             className="object-cover"
