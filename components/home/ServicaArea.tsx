@@ -1,21 +1,21 @@
+import Link from "next/link";
+
 export default function ServiceArea() {
   const cities = [
-    "Austin",
-    "Round Rock",
-    "Pflugerville",
-    "Cedar Park",
-    // "Georgetown",
-    // "Kyle",
-    // "Buda",
-    // "Leander",
+    { name: "Austin", href: "/service-area/austin" },
+    { name: "Round Rock", href: "/service-area/round-rock" },
+    { name: "Pflugerville", href: "/service-area/pflugerville" },
+    { name: "Cedar Park", href: "/service-area/cedar-park" },
+    // { name: "Georgetown", href: "/service-area/georgetown" },
+    // { name: "Kyle", href: "/service-area/kyle" },
+    // { name: "Buda", href: "/service-area/buda" },
+    // { name: "Leander", href: "/service-area/leander" },
   ];
 
   return (
     <section className="bg-[#FAFAFA] py-24">
       <div className="mx-auto max-w-7xl px-6">
-
-        <div className="text-center max-w-3xl mx-auto">
-
+        <div className="mx-auto max-w-3xl text-center">
           <p className="font-semibold uppercase tracking-[0.3em] text-[#E5121D]">
             Proudly Serving Central Texas
           </p>
@@ -29,22 +29,19 @@ export default function ServiceArea() {
             businesses throughout the greater Austin area with professional
             epoxy flooring, custom epoxy projects, and concrete restoration.
           </p>
-
         </div>
 
         <div className="mt-14 grid grid-cols-2 gap-4 md:grid-cols-4">
-
           {cities.map((city) => (
-            <div
-              key={city}
+            <Link
+              key={city.name}
+              href={city.href}
               className="rounded-xl border border-gray-200 bg-white p-5 text-center font-semibold shadow-sm transition hover:border-[#E5121D] hover:shadow-md"
             >
-              {city}
-            </div>
+              {city.name}
+            </Link>
           ))}
-
         </div>
-
       </div>
     </section>
   );
