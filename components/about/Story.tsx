@@ -10,6 +10,8 @@ export default function Story() {
             src="/images/derek.jpeg"
             alt="Owner Derek Contreras"
             fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="eager"  
             className="object-cover"
           />
         </div>
