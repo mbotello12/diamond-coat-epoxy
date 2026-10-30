@@ -30,7 +30,7 @@ export default function Hero() {
           <h1 className="text-4xl! font-extrabold! leading-tight! md:text-6xl!">
             Diamond Coat
             <span className="block text-[#E5121D]">
-              Epoxy Solutions ATX
+              Surface Solutions ATX
             </span>
           </h1>
 
