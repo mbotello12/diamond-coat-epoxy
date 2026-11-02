@@ -70,10 +70,10 @@ export default function ContactForm() {
                 Email
               </p>
               <a
-                href="mailto:derek_marcel@outlook.com"
+                href="mailto:derek@diamondcoatss.com"
                 className="mt-1 block text-xl font-semibold text-black hover:text-[#E5121D]"
               >
-                derek_marcel@outlook.com
+                derek@diamondcoatss.com
               </a>
             </div>
 

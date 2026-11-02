@@ -76,7 +76,7 @@ export default function Footer() {
           <p>(737) 349-5044</p>
 
           <p className="mt-3">
-            derek_marcel@outlook.com
+            derek@diamondcoatss.com
           </p>
 
           <Link
