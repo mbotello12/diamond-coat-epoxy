@@ -39,7 +39,7 @@ export default function Footer() {
 
             <li><a href="/services#metallic">Metallic Epoxy</a></li>
             <li><a href="/services#flakes">Epoxy Flake Flooring</a></li>
-            <li><a href="/services#Custom">Custom Epoxy Builds</a></li>
+            <li><a href="/services#custom">Custom Epoxy Builds</a></li>
             
 
           </ul>
