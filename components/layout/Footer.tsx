@@ -37,10 +37,10 @@ export default function Footer() {
 
           <ul className="space-y-3">
 
-            <li>Garage Epoxy Floors</li>
-            <li>Metallic Epoxy</li>
-            <li>Custom Epoxy Builds</li>
-            <li>Concrete Restoration</li>
+            <li><a href="/services#metallic">Metallic Epoxy</a></li>
+            <li><a href="/services#flakes">Epoxy Flake Flooring</a></li>
+            <li><a href="/services#Custom">Custom Epoxy Builds</a></li>
+            
 
           </ul>
 
@@ -56,10 +56,10 @@ export default function Footer() {
 
           <ul className="space-y-3">
 
-            <li>Austin</li>
-            <li>Round Rock</li>
-            <li>Cedar Park</li>
-            <li>Pflugerville</li>
+            <li><a href="/service-area/austin">Austin</a></li>
+            <li><a href="/service-area/round-rock">Round Rock</a></li>
+            <li><a href="/service-area/cedar-park">Cedar Park</a></li>
+            <li><a href="/service-area/pflugerville">Pflugerville</a></li>
 
           </ul>
 
@@ -73,10 +73,10 @@ export default function Footer() {
             Contact
           </h3>
 
-          <p>(737) 349-5044</p>
+          <p><a href="tel:7373495044">(737) 349-5044</a></p>
 
           <p className="mt-3">
-            derek@diamondcoatss.com
+            <a href="mailto:derek@diamondcoatss.com">derek@diamondcoatss.com</a>
           </p>
 
           <Link

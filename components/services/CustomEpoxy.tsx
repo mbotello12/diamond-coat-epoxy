@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CustomEpoxy() {
   return (
-    <section className="py-24">
+    <section id="custom" className="py-24">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2 lg:items-center">
 
     

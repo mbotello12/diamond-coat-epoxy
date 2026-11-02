@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FlakeFlooring() {
   return (
-    <section className="bg-gray-300 py-24">
+    <section id="flakes" className="bg-gray-300 py-24">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2 lg:items-center">
 
         
