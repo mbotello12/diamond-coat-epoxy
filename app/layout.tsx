@@ -14,12 +14,44 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
-  title:
-    "Epoxy Flooring Austin TX | Diamond Coat Epoxy Solutions",
+  metadataBase: new URL("https://diamondcoatss.com"),
+
+  title: {
+    default: "Epoxy Flooring Austin TX | Diamond Coat Epoxy Solutions",
+    template: "%s | Diamond Coat Epoxy Solutions",
+  },
+
   description:
-    "Professional epoxy flooring, garage floor coatings, metallic epoxy finishes, and concrete resurfacing in Austin, Texas.",
-  };
+    "Professional epoxy flooring, garage floor coatings, metallic epoxy finishes, and custom epoxy builds in Austin, Texas.",
+
+  openGraph: {
+    title: "Diamond Coat Epoxy Solutions | Professional Epoxy Flooring",
+    description:
+      "Transform your space with professional epoxy flooring and custom epoxy builds. Serving Austin and surrounding Central Texas communities.",
+    url: "https://diamondcoatss.com",
+    siteName: "Diamond Coat Epoxy Solutions",
+    images: [
+      {
+        url: "/icon.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Diamond Coat Epoxy Solutions professional epoxy flooring",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Diamond Coat Epoxy Solutions | Professional Epoxy Flooring",
+    description:
+      "Professional epoxy flooring and custom epoxy builds serving Austin, TX and surrounding communities.",
+    images: ["/icon.jpeg"],
+  },
+};
 
 export default function RootLayout({
   children,
